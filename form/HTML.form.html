@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Form</title>
+</head>
+<body>
+
+<h2>HTML form with client side validations</h2>
+
+<form>
+  First name:<br>
+  <input type="text" name="firstname" placeholder="First name"
+  pattern="[A-Za-z]{1,15}"">
+  <br>
+ 
+  Last name:<br>
+  <input type="text" name="lastname" placeholder="Last name"
+  pattern="[A-Za-z]{1,15}">
+  <br>
+ 
+  EGN:<br>
+  <input type="egn" name="EGN" placeholder="EGN" minlength="10" maxlength="10" pattern="[0-9]{10}">
+  <br>
+ 
+  age:<br>
+  <input type="number" name="age" min="18" max="118" value="18">
+  <br>
+ 
+  address:<br>
+  <input type="address" name="address" minlength="1" maxlength="100" placeholder="Address">
+  <br>
+ 
+  password:<br>
+  <input type="password" name="psw"  placeholder="Password"
+  pattern="[A-Za-z, 0-9]{6,18}">
+  <br>
+ 
+  <br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

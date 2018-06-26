@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> AJAX </title>
+</head>
+<body>
+
+<h1>Click the button</h1>
+<div id="demo">
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "helloworld.xml", true);
+  xhttp.send();
+}
+</script>
+
+</body>
+</html>
+
+
