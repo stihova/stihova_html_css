@@ -1,0 +1,156 @@
+.container
+	{
+	width: 300px;
+    height: 460px;
+    background-color: #24001a;
+    padding: 1%/*25px*/;
+    margin-top: 5% /*25px*/;
+    margin-left: 35% /*25px*/;
+	}
+.resultContainer
+	{
+	width: 230px;
+    height: 30px;
+    background-color: none /*#24001a*/;
+    padding: 8% /*25px*/;
+    margin: 2% /*10px*/;
+	}
+.display
+    {
+     border: none;
+     background-color: transparent;
+     width:295px;
+     position:relative;
+     height: 220% /*40px*/;
+     font-size:30px;
+     font-color: white;
+     color:white;
+     text-align:right;
+     padding: 1% /*25px*/;
+     margin: -13% /*10px*/;
+     margin-top: -7%;
+     /*background: none;*/   
+     }
+     
+.buttonContainer-1
+	{
+    width: 300px /*89.5%*/;
+    height: 70px;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+	}
+.buttonContainer-2
+	{
+    width: 225px /*89.5%*/;
+    height: 280px;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    margin-top: -14.5px;
+	}
+.buttonContainer-3
+	{
+    width: 75px /*89.5%*/;
+    height: 280px;
+    background-color: transparent;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+	}
+
+.button
+	{
+    display: inline-block;
+    width: 75px;
+    height: 70px;
+	font-size: 30px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: transparent;
+	border: 2px;
+    border-color: none;
+    }
+.button:hover
+    {
+    background-color: orange/*#4d0037*/;
+    }
+    
+.button:active
+    {
+    background-color: transparent;
+    }
+
+.buttonContainer
+	{
+    width: 75px /*89.5%*/;
+    height: 70px;
+    background-color: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    /*padding: 15px;*/
+	}
+    
+.buttonContainer-zeroButton
+	{
+    width: 150px /*89.5%*/;
+    height: 70px;
+    background-color: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+    /*padding: 15px;*/
+	}
+#zeroButton
+	{
+    width: 150px
+    }
+    
+#equalButton
+	{
+    display: inline-block;
+    width: 75px;
+    height: 140px;
+	font-size: 30px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	background-color: orange;
+
+    }
+#equalButton:hover
+    {
+          background-color: #cc8500;
+    }
+    
+#equalButton:active
+    {
+          background-color: #ffb833;
+    }
+
+.buttonContainer-equalButton
+	{
+    width: 75px /*89.5%*/;
+    height: 140px;
+    background-color: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    float: left;
+	}
+hr
+	{
+    width: 290px;
+    margin-left:-25px;
+    }

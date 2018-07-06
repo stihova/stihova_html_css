@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="Calculator_style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="resultContainer">
+    	<input readonly type="text" class="display" id="display">
+        <hr>
+
+    </div>
+    
+
+    <div class="buttonContainer-1">
+      <div class="buttonContainer">
+              <input type="button" class="button" id="clearbuttons" value="CA" onclick="ClearDisplay(this.value)">
+          </div>
+
+          <div class="buttonContainer">
+              <input type="button" class="button" id="clearbuttons" value="CL" onclick="ClearLast()">
+          </div>
+
+          <div class="buttonContainer">
+              <input type="button" class="button" value="*" onclick="onOperator(this.value)">
+          </div>
+
+          <div class="buttonContainer">
+              <input type="button" class="button" value="/" onclick="onOperator(this.value)">
+          </div>
+    </div>
+    
+    <div class="buttonContainer-2">
+    	<p>
+          <div class="buttonContainer">
+              <input type="button" class="button" value="7" onclick="onNumber(this.value)">
+          </div>
+
+          <div class="buttonContainer">
+              <input type="button" class="button" value="8" onclick="onNumber(this.value)">
+          </div>
+
+          <div class="buttonContainer">
+              <input type="button" class="button" value="9" onclick="onNumber(this.value)">
+          </div>
+        </p>
+        
+        <p>
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="4" onclick="onNumber(this.value)">
+          </div>
+          
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="5" onclick="onNumber(this.value)">
+          </div>
+          
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="6" onclick="onNumber(this.value)">
+          </div>
+        </p>
+        
+        <p>
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="1" onclick="onNumber(this.value)">
+          </div>
+          
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="2" onclick="onNumber(this.value)">
+          </div>
+          
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="3" onclick="onNumber(this.value)">
+          </div>
+        </p>
+        
+        <p>
+          <div class="buttonContainer-zeroButton">
+         	<input type="button" class="button" id="zeroButton" value="0" onclick="onNumber(this.value)">            
+          </div>
+
+          <div class="buttonContainer">
+          	<input type="button" class="button" value="." onclick="Point(this.value)">
+          </div>
+        </p>
+    </div>
+    
+    <div class="buttonContainer-3">
+    	<div class="buttonContainer">
+    		<input type="button" class="button" value="-" onclick="onOperator(this.value)">
+        </div>
+        
+        <div class="buttonContainer">
+    		<input type="button" class="button" value="+" onclick="onOperator(this.value)">
+        </div>
+        
+        <div class="buttonContainer-equalButton">
+     		<input type="button" class="button" id="equalButton" value="=" onclick="Result()">
+        </div>
+    </div>
+    
+    
+</div>
+
+<script src="Calculator_script.js">
+</script>
+
+</body>
+</html>
